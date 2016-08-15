@@ -1,0 +1,3 @@
+Question: What happens when you initialize a repository? Why do you need to do it?
+
+Answer: Upon initialization of a git repository, the administrative basis for the repository in the form of a file with name .git is created. It is necessary because we wouldn't have a storage unit for old commits and administration thereof otherwise.
