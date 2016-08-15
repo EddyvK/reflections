@@ -1,3 +1,9 @@
 Question: What happens when you initialize a repository? Why do you need to do it?
 
 Answer: Upon initialization of a git repository, the administrative basis for the repository in the form of a file with name .git is created. It is necessary because we wouldn't have a storage unit for old commits and administration thereof otherwise.
+
+Question: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Answer: The staging area does not contain copies of the files, only their names. It can act as a scratchpad for those files that need to be commited at some point in the future.
+
+
