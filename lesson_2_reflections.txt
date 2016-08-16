@@ -6,4 +6,22 @@ Question: How is the staging area different from the working directory and the r
 
 Answer: The staging area does not contain copies of the files, only their names. It can act as a scratchpad for those files that need to be commited at some point in the future.
 
+Question: How can you use the staging area to make sure you have one commit per logical change?
 
+Answer: One can do intermediate saves unto the staging area and only commit once a complete logical change has been implemented.
+
+Question: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Answer: Having several branches helps when you are testing various changes without a commitment towards implementing them.
+
+Question: How do the diagrams help you visualize the branch structure?
+
+Answer: Humans are used to seeing trees in real life. Therefore, depicting the commits as a visual branch structure enables us to use the instruments that we have for judging real trees to obtain an easier overview of the branch structure.
+
+Question: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Answer: the result of merging two branches is that a new commit is created which includes all the mutations of both branches vs the last common ancestor.
+
+Question: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Answer: Pro: In simple cases, a straightforward merger takes place without the need for tedious and error-prone manual copying. In more complicated cases, merger conflicts are clearly marked and prepared for manual solution. Against: there may be complicated cases where problems do not result in a conflict, only in a subspecification performance of the code. This may leave you with dud code.
