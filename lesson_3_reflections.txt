@@ -1,1 +1,3 @@
-Question: 
+Question: When would you want to use a remote repository rather than keeping all your work local?
+
+Answer: When I intend to work with others or across several locations. Also, it can serve as a remote safety-backup for code.
