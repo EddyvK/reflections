@@ -1,3 +1,6 @@
 Question: When would you want to use a remote repository rather than keeping all your work local?
 
 Answer: When I intend to work with others or across several locations. Also, it can serve as a remote safety-backup for code.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Clones create a carbon copy from a github repository to a local repository. Alternatively, a local repository can be the source as well. Forks typically create a carbon copy of a github repository and place it in another github repository. Branches work within an existing repository to create altervative series of commits to the 'master' series.
